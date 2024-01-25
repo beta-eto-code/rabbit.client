@@ -1,0 +1,28 @@
+{
+  "name": "beta/rabbit.client",
+  "description": "RabbitMQ client",
+  "type": "lib",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Alexander Nesterov",
+      "email": "alex19pov31@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.4",
+    "beta/mb.client": "^1.0",
+    "php-amqplib/php-amqplib": "^2.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "RabbitClient\\": "src/"
+    }
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "git@github.com:beta-eto-code/mb.client.git"
+    }
+  ]
+}
